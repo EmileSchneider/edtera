@@ -1,0 +1,21 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "ds237620.mlab.com",
+        "srv": false,
+        "port": "37620",
+        "database": "edtera",
+        "username": "admin",
+        "password": "0MwdL31!"
+      },
+      "options": {
+        "authenticationDatabase": "edtera",
+        "ssl": false
+      }
+    }
+  }
+}
